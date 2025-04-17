@@ -1,0 +1,11 @@
+{
+  "extends": ["next/core-web-vitals", "@rocketseat/eslint-config/react"],
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "eqeqeq": ["error", "always"],
+    "camelcase": "error",
+    "@typescript-eslint/no-this-alias": "error",
+    "import/no-duplicates": "error"
+  }
+}
