@@ -3,7 +3,8 @@
   "version": "3.9.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_NO_WARNINGS=1 next dev",
+    "clean": "rimraf .next",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
@@ -25,14 +26,21 @@
     "swiper": "^11.0.5"
   },
   "devDependencies": {
+    "@eslint/config-array": "^0.20.0",
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.28",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
+    "rimraf": "^4.4.1",
     "typescript": "^5"
+  },
+  "overrides": {
+    "glob": "^9.3.3",
+    "inflight": "^1.0.7"
   }
 }
