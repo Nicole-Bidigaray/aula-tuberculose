@@ -57,7 +57,7 @@ const HeroBanner: React.FC = () => {
                     </p>
 
                     <Link
-                      href="/contact"
+                      href="/contatos"
                       className="btn btn-primary"
                       data-aos="fade-up"
                       data-aos-delay="300"

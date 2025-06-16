@@ -90,7 +90,7 @@ const FunFactsArea = () => {
             <h3>Have any question about us?</h3>
             <p>Don&apos;t hesitate to contact us</p>
 
-            <Link href="/contact" className="btn btn-primary">
+            <Link href="/contatos" className="btn btn-primary">
               Contact Us
             </Link>
           </div>

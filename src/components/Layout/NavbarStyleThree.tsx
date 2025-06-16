@@ -86,13 +86,13 @@ const NavbarStyleThree: React.FC = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/pc-repair/"
+                          href="/dados-analises/"
                           onClick={toggleNavbar}
                           className={`nav-link ${
-                            currentRoute === '/pc-repair/' && 'active'
+                            currentRoute === '/dados-analises/' && 'active'
                           }`}
                         >
-                          PC Repair
+                           Dados e Análises
                         </Link>
                       </li>
                     </ul>
@@ -162,28 +162,28 @@ const NavbarStyleThree: React.FC = () => {
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
-                          Features <Icon.ChevronDown />
+                          Ajuda <Icon.ChevronDown />
                         </Link>
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/features/"
+                              href="/ajuda/"
                               onClick={toggleNavbar}
                               className={`nav-link ${
-                                currentRoute === '/features/' && 'active'
+                                currentRoute === '/ajuda/' && 'active'
                               }`}
                             >
-                              Features
+                              Ajuda
                             </Link>
                           </li>
 
                           <li className="nav-item">
                             <Link
-                              href="/features/feature-details/"
+                              href="/ajuda/feature-details/"
                               onClick={toggleNavbar}
                               className={`nav-link ${
-                                currentRoute === '/features/feature-details/' &&
+                                currentRoute === '/ajuda/feature-details/' &&
                                 'active'
                               }`}
                             >
@@ -583,13 +583,13 @@ const NavbarStyleThree: React.FC = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/contact/"
+                      href="/contatos/"
                       onClick={toggleNavbar}
                       className={`nav-link ${
-                        currentRoute === '/contact/' && 'active'
+                        currentRoute === '/contatos/' && 'active'
                       }`}
                     >
-                      Contact
+                      Contatos
                     </Link>
                   </li>
                 </ul>
@@ -602,7 +602,7 @@ const NavbarStyleThree: React.FC = () => {
                   <span>3</span>
                 </Link>
 
-                <Link href="/contact/" className="btn btn-light">
+                <Link href="/contatos/" className="btn btn-light">
                   Support
                 </Link>
 

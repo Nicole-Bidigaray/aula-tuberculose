@@ -31,7 +31,7 @@ const OurFeatures = () => {
                   <Icon.Settings />
                 </div>
                 <h3>
-                  <Link href="/features/feature-details/">
+                  <Link href="/ajuda/feature-details/">
                     Incredible Infrastructure
                   </Link>
                 </h3>
@@ -54,7 +54,7 @@ const OurFeatures = () => {
                   <Icon.Mail />
                 </div>
                 <h3>
-                  <Link href="/features/feature-details/">
+                  <Link href="/ajuda/feature-details/">
                     Email Notifications
                   </Link>
                 </h3>
@@ -77,7 +77,7 @@ const OurFeatures = () => {
                   <Icon.Grid />
                 </div>
                 <h3>
-                  <Link href="/features/feature-details/">
+                  <Link href="/ajuda/feature-details/">
                     Simple Dashboard
                   </Link>
                 </h3>
@@ -100,7 +100,7 @@ const OurFeatures = () => {
                   <Icon.Info />
                 </div>
                 <h3>
-                  <Link href="/features/feature-details/">
+                  <Link href="/ajuda/feature-details/">
                     Information Retrieval
                   </Link>
                 </h3>
@@ -123,7 +123,7 @@ const OurFeatures = () => {
                   <Icon.Box />
                 </div>
                 <h3>
-                  <Link href="/features/feature-details/">
+                  <Link href="/ajuda/feature-details/">
                     Drag & Drop Functionality
                   </Link>
                 </h3>
@@ -146,7 +146,7 @@ const OurFeatures = () => {
                   <Icon.Bell />
                 </div>
                 <h3>
-                  <Link href="/features/feature-details/">
+                  <Link href="/ajuda/feature-details/">
                     Deadline Reminders
                   </Link>
                 </h3>

@@ -25,7 +25,7 @@ const Partner = () => {
           <h3>Ready to talk?</h3>
           <p>Our team is here to answer your question about StartP</p>
 
-          <Link href="/contact" className="btn btn-primary">
+          <Link href="/contatos" className="btn btn-primary">
             Contact Us
           </Link>
 

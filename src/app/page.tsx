@@ -1,28 +1,28 @@
 import React from 'react'
 
 import BlogPost from '../components/Common/BlogPost'
-import Feedback from '../components/Common/Feedback'
 import FunFactsArea from '../components/Common/FunFactsArea'
-import Partner from '../components/Common/Partner'
-import RecentWorks from '../components/Common/RecentWorks'
 import Footer from '../components/Layout/Footer'
 import Navbar from '../components/Layout/Navbar'
-import PricingStyleOne from '../components/PricingPlans/PricingStyleOne'
+import MainBanner from '@/components/DadosAnalises/MainBanner'
+import AboutUsContent from '@/components/DadosAnalises/AboutUsContent'
+import Services from '@/components/DadosAnalises/Services'
+import CTA from '@/components/DadosAnalises/CTA'
 
 export default function Home() {
   return (
     <>
       <Navbar />
 
+      <MainBanner />
+
+      <AboutUsContent />
+
+      <Services />
+
+      <CTA />
+
       <FunFactsArea />
-
-      <RecentWorks />
-
-      <PricingStyleOne />
-
-      <Feedback />
-
-      <Partner />
 
       <BlogPost />
 

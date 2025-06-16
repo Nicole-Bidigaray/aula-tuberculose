@@ -62,42 +62,38 @@ const Navbar: React.FC = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
-                  <li className="nav-item">
-                    <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link"
-                    >
-                      Home <Icon.ChevronDown />
+                  <li className="nav-item dropdown">
+                    <Link href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dados e Análises
                     </Link>
-
                     <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/"
-                          onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentRoute === '/' ? 'active' : ''
-                          }`}
-                        >
-                          IT Startup
+                      <li>
+                        <Link href="/tuberculose-no-mundo" className="dropdown-item">
+                          A Tuberculose no mundo
                         </Link>
                       </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/pc-repair/"
-                          onClick={toggleNavbar}
-                          className={`nav-link ${
-                            currentRoute === '/pc-repair/' && 'active'
-                          }`}
-                        >
-                          PC Repair
+                      <li>
+                        <Link href="/brasil-historia-sem-fim" className="dropdown-item">
+                          No Brasil, uma história sem fim
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/fontes-de-dados" className="dropdown-item">
+                          Fontes de dados – pesquise sobre seu Estado/Cidade
                         </Link>
                       </li>
                     </ul>
                   </li>
-
+                  <li className="nav-item">
+                    <Link href="/conteudos-para-debate" className="nav-link">
+                      Conteúdos para debate
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/ajuda" className="nav-link">
+                      Ajuda
+                    </Link>
+                  </li>
                   <li className="nav-item">
                     <Link
                       href="#"
@@ -162,28 +158,28 @@ const Navbar: React.FC = () => {
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
-                          Features <Icon.ChevronDown />
+                          Ajuda <Icon.ChevronDown />
                         </Link>
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/features/"
+                              href="/ajuda/"
                               onClick={toggleNavbar}
                               className={`nav-link ${
-                                currentRoute === '/features/' && 'active'
+                                currentRoute === '/ajuda/' && 'active'
                               }`}
                             >
-                              Features
+                              Ajuda
                             </Link>
                           </li>
 
                           <li className="nav-item">
                             <Link
-                              href="/features/feature-details/"
+                              href="/ajuda/feature-details/"
                               onClick={toggleNavbar}
                               className={`nav-link ${
-                                currentRoute === '/features/feature-details/' &&
+                                currentRoute === '/ajuda/feature-details/' &&
                                 'active'
                               }`}
                             >
@@ -583,13 +579,13 @@ const Navbar: React.FC = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/contact/"
+                      href="/contatos/"
                       onClick={toggleNavbar}
                       className={`nav-link ${
-                        currentRoute === '/contact/' && 'active'
+                        currentRoute === '/contatos/' && 'active'
                       }`}
                     >
-                      Contact
+                      Contatos
                     </Link>
                   </li>
                 </ul>
@@ -602,7 +598,7 @@ const Navbar: React.FC = () => {
                   <span>3</span>
                 </Link>
 
-                <Link href="/contact/" className="btn btn-light">
+                <Link href="/contatos/" className="btn btn-light">
                   Support
                 </Link>
 

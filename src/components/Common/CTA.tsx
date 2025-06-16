@@ -23,7 +23,7 @@ const CTA = () => {
                 </div>
 
                 <div className="buy-btn">
-                  <Link href="/contact" className="btn btn-primary">
+                  <Link href="/contatos" className="btn btn-primary">
                     Get Started
                   </Link>
                 </div>

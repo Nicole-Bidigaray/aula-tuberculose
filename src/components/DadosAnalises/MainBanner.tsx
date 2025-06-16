@@ -25,7 +25,7 @@ const MainBanner = () => {
                   look even slightly believable.
                 </p>
 
-                <Link href="/contact" className="btn btn-primary">
+                <Link href="/contatos" className="btn btn-primary">
                   Get Started
                 </Link>
               </div>

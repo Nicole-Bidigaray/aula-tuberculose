@@ -23,7 +23,7 @@ const Features = () => {
                 </div>
 
                 <h3>
-                  <Link href="/features/feature-details/">
+                  <Link href="/ajuda/feature-details/">
                     Zero Configuration
                   </Link>
                 </h3>
@@ -48,7 +48,7 @@ const Features = () => {
                 </div>
 
                 <h3>
-                  <Link href="/features/feature-details/">Code Security</Link>
+                  <Link href="/ajuda/feature-details/">Code Security</Link>
                 </h3>
 
                 <p>
@@ -71,7 +71,7 @@ const Features = () => {
                 </div>
 
                 <h3>
-                  <Link href="/features/feature-details/">Team Management</Link>
+                  <Link href="/ajuda/feature-details/">Team Management</Link>
                 </h3>
 
                 <p>
@@ -94,7 +94,7 @@ const Features = () => {
                 </div>
 
                 <h3>
-                  <Link href="/features/feature-details/">
+                  <Link href="/ajuda/feature-details/">
                     Access Controlled
                   </Link>
                 </h3>

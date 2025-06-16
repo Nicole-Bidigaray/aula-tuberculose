@@ -41,7 +41,9 @@ const Team = () => {
                       <a
                         href="https://www.facebook.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                        title="Facebook"
                       >
                         <Icon.Facebook />
                       </a>
@@ -50,7 +52,9 @@ const Team = () => {
                       <a
                         href="https://www.twitter.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Twitter"
+                        title="Twitter"
                       >
                         <Icon.Twitter />
                       </a>
@@ -59,7 +63,9 @@ const Team = () => {
                       <a
                         href="https://www.linkedin.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Linkedin"
+                        title="Linkedin"
                       >
                         <Icon.Linkedin />
                       </a>
@@ -68,7 +74,9 @@ const Team = () => {
                       <a
                         href="https://www.gitlab.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Gitlab"
+                        title="Gitlab"
                       >
                         <Icon.Gitlab />
                       </a>
@@ -100,7 +108,9 @@ const Team = () => {
                       <a
                         href="https://www.facebook.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                        title="Facebook"
                       >
                         <Icon.Facebook />
                       </a>
@@ -109,7 +119,9 @@ const Team = () => {
                       <a
                         href="https://www.twitter.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Twitter"
+                        title="Twitter"
                       >
                         <Icon.Twitter />
                       </a>
@@ -118,7 +130,9 @@ const Team = () => {
                       <a
                         href="https://www.linkedin.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Linkedin"
+                        title="Linkedin"
                       >
                         <Icon.Linkedin />
                       </a>
@@ -127,7 +141,9 @@ const Team = () => {
                       <a
                         href="https://www.gitlab.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Gitlab"
+                        title="Gitlab"
                       >
                         <Icon.Gitlab />
                       </a>
@@ -159,7 +175,9 @@ const Team = () => {
                       <a
                         href="https://www.facebook.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                        title="Facebook"
                       >
                         <Icon.Facebook />
                       </a>
@@ -168,7 +186,9 @@ const Team = () => {
                       <a
                         href="https://www.twitter.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Twitter"
+                        title="Twitter"
                       >
                         <Icon.Twitter />
                       </a>
@@ -177,7 +197,9 @@ const Team = () => {
                       <a
                         href="https://www.linkedin.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Linkedin"
+                        title="Linkedin"
                       >
                         <Icon.Linkedin />
                       </a>
@@ -186,7 +208,9 @@ const Team = () => {
                       <a
                         href="https://www.gitlab.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Gitlab"
+                        title="Gitlab"
                       >
                         <Icon.Gitlab />
                       </a>
@@ -218,7 +242,9 @@ const Team = () => {
                       <a
                         href="https://www.facebook.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                        title="Facebook"
                       >
                         <Icon.Facebook />
                       </a>
@@ -227,7 +253,9 @@ const Team = () => {
                       <a
                         href="https://www.twitter.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Twitter"
+                        title="Twitter"
                       >
                         <Icon.Twitter />
                       </a>
@@ -236,7 +264,9 @@ const Team = () => {
                       <a
                         href="https://www.linkedin.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Linkedin"
+                        title="Linkedin"
                       >
                         <Icon.Linkedin />
                       </a>
@@ -245,7 +275,9 @@ const Team = () => {
                       <a
                         href="https://www.gitlab.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
+                        aria-label="Gitlab"
+                        title="Gitlab"
                       >
                         <Icon.Gitlab />
                       </a>

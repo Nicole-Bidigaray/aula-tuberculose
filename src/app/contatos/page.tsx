@@ -12,7 +12,7 @@ export default function Page() {
     <>
       <Navbar />
 
-      <PageBanner pageTitle="Contact Us" />
+      <PageBanner pageTitle="Contatos" />
 
       <ContactInfo />
 

@@ -11,7 +11,7 @@ export default function Page() {
     <>
       <Navbar />
 
-      <PageBanner pageTitle="Features" />
+      <PageBanner pageTitle="Ajuda" />
 
       <OurFeatures />
 

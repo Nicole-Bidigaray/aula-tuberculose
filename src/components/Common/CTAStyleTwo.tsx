@@ -11,7 +11,7 @@ const CTAStyleTwo = () => {
           <div className="agency-cta-content">
             <h2>Do you have any projects?</h2>
 
-            <Link href="/contact" className="btn btn-gradient">
+            <Link href="/contatos" className="btn btn-gradient">
               Contact Us
             </Link>
           </div>

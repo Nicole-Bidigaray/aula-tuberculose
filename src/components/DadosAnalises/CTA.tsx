@@ -24,7 +24,7 @@ const CTA = () => {
                   maecenas accumsan lacus vel facilisis.
                 </p>
 
-                <Link href="/contact" className="btn btn-primary">
+                <Link href="/contatos" className="btn btn-primary">
                   Contact Us
                 </Link>
               </div>

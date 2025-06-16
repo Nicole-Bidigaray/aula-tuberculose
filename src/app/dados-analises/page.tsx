@@ -5,12 +5,12 @@ import Feedback from '../../components/Common/Feedback'
 import FunFactsArea from '../../components/Common/FunFactsArea'
 import Footer from '../../components/Layout/Footer'
 import Navbar from '../../components/Layout/Navbar'
-import AboutUsContent from '../../components/PCRepair/AboutUsContent'
-import CTA from '../../components/PCRepair/CTA'
-import MainBanner from '../../components/PCRepair/MainBanner'
-import Services from '../../components/PCRepair/Services'
-import Team from '../../components/PCRepair/Team'
-import WhyChoose from '../../components/PCRepair/WhyChoose'
+import AboutUsContent from '../../components/DadosAnalises/AboutUsContent'
+import CTA from '../../components/DadosAnalises/CTA'
+import MainBanner from '../../components/DadosAnalises/MainBanner'
+import Services from '../../components/DadosAnalises/Services'
+import Team from '../../components/DadosAnalises/Team'
+import WhyChoose from '../../components/DadosAnalises/WhyChoose'
 
 export default function Page() {
   return (
